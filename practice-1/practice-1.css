@@ -1,10 +1,57 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px/19px "Helvetica Neue", sans-serif;
+  color: #1F1F1F;
+}
+
+.practice-1 {
   width: 100vw;
   height: 100vh;
 }
-.main {
-  width: 50%;
-  height: 50%;
-  margin: auto;
-  background-color: lightgray;
+
+.practice-1__content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.practice-1__button {
+  width: 50vw;
+  height: 5vh;
+  border: 1px solid #E5266E;
+  border-radius: 4px;
+  color: #E5266E;
+  background-color: white;
+  cursor: pointer;
+}
+
+.practice-1__button:hover {
+  opacity: .75;
+}
+
+.modal-view {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+.modal-view__form {
+  width: 754px;
+  min-height: 1248px;
+  margin: 130px 0;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
 }

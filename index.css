@@ -33,8 +33,8 @@
   width: 50%;
   height: 5vh;
   border: none;
-  background-color: #7b7b7d;
-  border-radius: 8px;
+  background-color: #E5266E;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .practice__link {
-  color: aliceblue;
+  color: white;
   text-decoration: none;
 }
 
