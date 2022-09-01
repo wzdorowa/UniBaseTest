@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px/19px "Helvetica Neue", sans-serif;
+  color: #1F1F1F;
+}
+
+.practice {
+  width: 100vw;
+  height: 100vh;
+}
+
+.practice__header {
+  display: flex;
+  justify-content: center;
+  padding: 10vh 0 10vh 0;
+}
+
+.practice__title {
+  font-size: 32px;
+}
+
+.practice__content {
+  min-height: 25vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.practice__button {
+  width: 50%;
+  height: 5vh;
+  border: none;
+  background-color: #7b7b7d;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.practice__button:hover  {
+  opacity: .75;
+}
+
+.practice__link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.practice__footer {
+
+}

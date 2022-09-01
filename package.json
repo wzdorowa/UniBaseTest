@@ -1,0 +1,33 @@
+{
+  "name": "UniBaseTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./*.html --open",
+    "build": "parcel build ./*.html --out-dir build --public-url /TOXIN",
+    "deploy": "gh-pages -d build",
+    "eslint": "eslint --fix --ext .js, src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzdorowa/UniBaseTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/wzdorowa/UniBaseTest#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-fsd": "^1.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "gh-pages": "^3.1.0",
+    "parcel": "^2.7.0",
+    "stylelint": "^14.0.0"
+  },
+  "engines": {
+    "node": "18.8.0",
+    "npm": "8.19.0"
+  },
+  "dependencies": {}
+}
